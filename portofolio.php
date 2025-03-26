@@ -7,7 +7,7 @@ $db = new Database('kaleoweb');
 <html lang="fr">
 <head>
     <meta charset="utf-8"/>
-    <title>KaleoWeb | Nos réalisations</title>
+    <title>KaleoWeb | Mes réalisations</title>
     <meta name="description" content="Nos réalisations, nos clients"/>
     <meta name="Author" content="KALEOWEB [www.kaleoweb.net]"/>
     <meta name="robots" content="index,follow"/>
@@ -51,7 +51,7 @@ $db = new Database('kaleoweb');
         <div class="overlay dark-4"><!-- dark overlay [1 to 9 opacity] --></div>
         <div class="container">
             <div class="heading-dotted">
-                <h3><i class="fa fa-code text-info"></i> Nos <span>réalisations</span></h3>
+                <h3><i class="fa fa-code text-info"></i> Mes <span>réalisations</span></h3>
             </div>
         </div>
     </section>
@@ -62,7 +62,7 @@ $db = new Database('kaleoweb');
                 <li data-filter="all" class="filter active btn btn-3d btn-bitbucket"><a href="#" class="text-white uppercase font-weight-bold"><i class="fa fa-info-circle"></i> Tous les sites</a></li>
                 <li data-filter="development" class="filter btn btn-3d btn-info"><a href="#" class="text-white uppercase font-weight-bold"><i class="fa fa-code"></i> Développement</a></li>
                 <li data-filter="wordpress" class="filter btn btn-3d btn-success"><a href="#" class="text-white uppercase font-weight-bold"><i class="fa fa-wordpress"></i> WordPress</a></li>
-                <!-- <li data-filter="design" class="filter"><a href="#">Design</a></li>-->
+                <li data-filter="oc" class="filter btn btn-3d btn-dirtygreen"><a href="#" class="text-white uppercase font-weight-bold"><i class="fa fa-code"></i> OpenClassRoom</a></li>
             </ul><!-- /page tabs -->
             <!-- Portfolio Items -->
             <div id="portfolio" class="portfolio">
@@ -210,7 +210,7 @@ $db = new Database('kaleoweb');
                             </div>
                         </div>
                     </div><!-- /item -->
-                    <div class="col-md-4 col-sm-4 mix development"><!-- item -->
+                    <div class="col-md-4 col-sm-4 mix oc"><!-- item -->
                         <div class="item-box">
                             <figure>
 									<span class="item-hover">
@@ -231,6 +231,31 @@ $db = new Database('kaleoweb');
                                 <span class="fs-10 text-info">OpenClassRoom</span>
                                 <ul class="list-inline categories m-0">
                                     <li><i class="fa fa-code"></i> <a href="#">Développement</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- /item -->
+                    <div class="col-md-4 col-sm-4 mix oc"><!-- item -->
+                        <div class="item-box">
+                            <figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+											<!-- details -->
+											<a class="ico-rounded"
+                                               href="https://github.com/Stefthefreeman/OC_projet6/tree/main/backend">
+												<span class="glyphicon glyphicon-option-horizontal fs-20"></span>
+											</a>
+										</span>
+									</span>
+                                <img class="img-fluid"
+                                     src="assets/images/mon_vieux_grimoire.png"  style="width:600px; max-height:400px" alt="projet OpenClassRoom Backend">
+                            </figure>
+                            <div class="item-box-desc">
+                                <h3>Projet OpenClassRoom Mon vieux grimoire (React / nodejs / ExpressJs)</h3>
+                                <span class="fs-10 text-info">OpenClassRoom</span>
+                                <ul class="list-inline categories m-0">
+                                    <li><i class="fa fa-code"></i> <a href="#">OpenClassRoom</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -277,6 +302,31 @@ $db = new Database('kaleoweb');
                                 <span class="fs-10 text-info">Docteur d'Etat en droit - Licenciée ès-lettres</span>
                                 <ul class="list-inline categories m-0">
                                     <li><i class="fa fa-wordpress"></i><a href="#">Wordpress</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- /item -->
+                    <div class="col-md-4 col-sm-4 mix oc"><!-- item -->
+                        <div class="item-box">
+                            <figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+											<!-- details -->
+											<a class="ico-rounded"
+                                               href="https://stefthefreeman.github.io/OC_projet4/">
+												<span class="glyphicon glyphicon-option-horizontal fs-20"></span>
+											</a>
+										</span>
+									</span>
+                                <img class="img-fluid"
+                                     src="assets/images/Nina%20Carducci.png"  style="width:600px;" alt="projet OpenClassRoom SEO">
+                            </figure>
+                            <div class="item-box-desc">
+                                <h3>Projet OpenClassRoom Nina Carducci (Optimisation SEO)</h3>
+                                <span class="fs-10 text-info">OpenClassRoom</span>
+                                <ul class="list-inline categories m-0">
+                                    <li><i class="fa fa-code"></i> <a href="#">OpenClassRoom</a></li>
                                 </ul>
                             </div>
                         </div>
